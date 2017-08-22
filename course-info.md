@@ -42,11 +42,11 @@ This course provides students with a broad understanding of modern software test
 
 * Projects (80%):
   * Deliverable 1 - 10%
-  * Deliverable 2 - 20%
+  * Deliverable 2 - 15%
   * Deliverable 3 - 10%
   * Deliverable 4 - 15%
   * Deliverable 5 - 10%
-  * Deliverable 6 - 20%
+  * Deliverable 6 - 25%
 * Exercises (20%):
   * Includes numerous in-class exercises and lectures
   * See below
@@ -87,13 +87,13 @@ Lecture attendance for non-exercise classes is not required, but is STRONGLY rec
 ## Project Details
 
 * **Deliverable 1:** A test plan and traceability matrix for a system.
-* **Deliverable 2:** Modification of an application using test-driven development.
+* **Deliverable 2:** Creation of an application using unit tests.
 * **Deliverable 3:** Automated system-level tests.
 * **Deliverable 4:** Performance testing and improvement of an application.
 * **Deliverable 5:** Developing a system with the help of static analysis.
-* **Final Deliverable:** Developing and testing a large application.
+* **Deliverable 6:** Developing and testing a large application.
 
-Deliverables must be handed in on the day that it is due for full credit.  You may turn in your deliverables one "class day" late (i.e., the next time the class meets, e.g., if the deliverable is due on Monday, you may turn it in on Wednesday), but you will receive a -20 point (20%) penalty.
+Deliverables must be handed in on the day that it is due for full credit.  You may turn in your deliverables one "class day" late (i.e., the next time the class meets, e.g., if the deliverable is due on Monday, you may turn it in on Wednesday), but you will receive a -20 point (20%) penalty.  Assignments will not be accepted more than one "class day" late (i.e., you will receive a 0 for the assignment and it will not be graded) unless previously cleared with the instructor.
 
 ## Programming Language Selection
 

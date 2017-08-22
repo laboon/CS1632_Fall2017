@@ -17,104 +17,105 @@ AFIST = _A Friendly Introduction to Software Testing_ by Bill Laboon
 
 * (4 Sep) NO CLASS - LABOR DAY
 
-Test Plans and Breaking Software
-  * READING: AFIST, Chapters 6 - 8
+* (6 Sep) Test Plans
 
-* (6 Sep) Test plan exercise (EX1)
+Test plan exercise (EX1)
 
 ## WEEK 3 (11 and 13 Sep)
 
-* (11 Sep) Exploratory Testing
-  * Exploratory Testing exercise (EX2)
+* (11 Sep) Breaking Software
 
-* (13 Sep) Automated and Manual Testing, Unit Testing Part 1
-  * READING: AFIST, Chapter 12-13
+* (13 Sep) Exercise 1: Test Plans
+
+Exploratory Testing
 
 ## WEEK 4 (18 and 20 Sep)
 
-* (18 Sep) Unit Testing Part 2
+* (18 Sep) Automated and Manual Testing, Unit Testing Part 1
+  * READING: AFIST, Chapter 12-13
+  
+* (20 Sep) Unit Testing Part 2
   * Unit Testing Exercise (EX3)
   * READING: AFIST, Chapter 14
 
-* (20 Sep) Test-driven Development
-  * READING: AFIST, Chapter 15
-
 ## WEEK 5 (25 and 27 Sep)
 
-* (25 Sep) Writing Testable Code
-  * READING: AFIST, Chapter 16
+* (25 Sep) Exercise 2: Unit Testing
 
-* (27 Sep) Unit Testing Exercise 2 (EX4)
+* (27 Sep) Test-driven Development
+  * READING: AFIST, Chapter 15
 
 ## WEEK 6 (2 and 4 Oct)
 
-* (2 Oct) Pairwise and Combinatorial Testing
-  * Combinatorial Testing exercise (EX5)
-  * READING: AFIST, Chapter 17
+* (2 Oct) Writing Testable Code
+  * READING: AFIST, Chapter 16
 
-* (4 Oct) Automated System Testing
+* (4 Oct) Exercise 3: Unit Testing and TDD
 
 ## WEEK 7 (10 and 11 Oct)
 
 _Note: Classes that are normally held on Monday are shifted to Tuesday on this week due to the Monday holiday._
 
-  * (10 Oct) Automated System Testing, Part 2
+  * (10 Oct) Pairwise and Combinatorial Testing
+  * Combinatorial Testing exercise (EX5)
+  * READING: AFIST, Chapter 17
 
-  * (11 Oct) Automated System Testing exercise (EX6)
+  * (11 Oct) MIDTERM 1
 
 ## WEEK 8 (16 and 18 Oct)
 
-* (16 Oct)
+* (16 Oct) Automated System Testing
 
-* (18 Oct) Performance Testing, Parts 1 and 2
-  * READING: AFIST, Chapter 19
+* (18 Oct) Automated System Testing, Part 2
+
 
 ## WEEK 9 (23 and 25 Oct)
 
-* (23 Oct) Performance Testing Exercise (EX7)
+* (23 Oct) Exercise 4: Automated System Testing
 
-* (25 Oct) Static Analysis, Parts 1 and 2
+* (25 Oct) Performance Testing, Part 1
+  * READING: AFIST, Chapter 19
+
+
 
 ## WEEK 10 (30 Oct and 1 Nov)
 
-* (30 Oct) Static Analysis Exercise (EX8)
+* (30 Oct) Performance Testing, Part 2
 
-* (1 Nov) Interacting With Stakeholders
-  * READING: AFIST, Chapter 21
-  * Stakeholder Interaction Exercise (EX9)
+* (1 Nov) Exercise 5: Performance Testing
 
 ## WEEK 11 (6 and 8 Nov)
 
-* (6 Nov) Developing a Testing Strategy
+* (6 Nov) Static Analysis, Part 1
 
-* (8 Nov) Stochastic and Property-Based Testing
-  * READING: AFIST, Chapter 18
+* (8 Nov) Static Analysis, Part 2
 
 ## WEEK 12 (13 and 15 Nov)
 
-* (13 Nov) Security Testing
-  * READING: AFIST, Chapter 20
-  * Security Exercise (EX10)
+* (13 Nov) Exercise 6: Static Analysis
 
-* (15 Nov) Security Exercise
+* (15 Nov) Developing and Managing a Testing Strategy 
 
 ## WEEK 13 (20 and 22 Nov)
 
-* (20 Nov) 
+* (20 Nov) Stochastic and Property-Based Testing
+  * READING: AFIST, Chapter 18 
 
 * (22 Nov) NO CLASS
 
 ## WEEK 14 (30 Nov and 1 Dec)
 
-* (30 Nov) 
+* (30 Nov) Interacting With Stakeholders
+  * READING: AFIST, Chapter 21
 
-* (1 Dec)
+* (1 Dec) MIDTERM 2
 
 ## WEEK 15 (6 and 8 Dec)
 
-* (6 Dec) 
+* (6 Dec) Security Testing
+  * READING: AFIST, Chapter 20
 
-* (8 Dec)
+* (8 Dec) Exercise 7: Penetration Testing
 
 
 
