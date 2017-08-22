@@ -7,23 +7,20 @@ AFIST = _A Friendly Introduction to Software Testing_ by Bill Laboon
 
 ## WEEK 1 (28 and 30 Aug)
 * (28 Aug) Introduction - What is Software Quality Assurance?
-  * Basic Testing Theory and Terminology
-  * READING: AFIST, Chapters 2 - 4
 
-* (30 Aug) Requirements and Defects
-  * READING: AFIST, Chapters 5 and 9
+* (30 Aug)  Basic Testing Theory and Terminology
+  * READING: AFIST, Chapters 2 - 4
 
 ## WEEK 2 (4 and 6 Sep)
 
 * (4 Sep) NO CLASS - LABOR DAY
 
-* (6 Sep) Test Plans
-
-Test plan exercise (EX1)
+* (6 Sep) Requirements and Defects
+  * READING: AFIST, Chapters 5 and 9
 
 ## WEEK 3 (11 and 13 Sep)
 
-* (11 Sep) Breaking Software
+* (11 Sep) Test Plans and Breaking Software
 
 * (13 Sep) EX1: Test Plans
 
@@ -55,11 +52,10 @@ Exploratory Testing
 
 _Note: Classes that are normally held on Monday are shifted to Tuesday on this week due to the Monday holiday._
 
-  * (10 Oct) Pairwise and Combinatorial Testing
-  * Combinatorial Testing exercise (EX5)
+* (10 Oct) Pairwise and Combinatorial Testing
   * READING: AFIST, Chapter 17
 
-  * (11 Oct) MIDTERM 1
+* (11 Oct) MIDTERM 1
 
 ## WEEK 8 (16 and 18 Oct)
 

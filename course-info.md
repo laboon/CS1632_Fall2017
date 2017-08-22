@@ -51,7 +51,9 @@ This course provides students with a broad understanding of modern software test
   * Includes numerous in-class exercises and lectures
   * See below
 
-Although you are not required to come to every class, it is strongly recommended that you do.  Attendance _will_ be taken for days with class exercises, and this will count for your class participation.  These days are listed on the syllabus as EX_n_ (where _n_ is in the range {1,7}).
+Although you are not required to come to every class, it is strongly recommended that you do.
+
+Exercise days (where there is no lecture, but an in-class exercise) are listed on the syllabus as EX_n_ (where _n_ is in the range {1,7}).
 
 The following grading scale will be used.  
 
