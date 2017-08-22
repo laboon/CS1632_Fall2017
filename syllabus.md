@@ -25,7 +25,7 @@ Test plan exercise (EX1)
 
 * (11 Sep) Breaking Software
 
-* (13 Sep) Exercise 1: Test Plans
+* (13 Sep) EX1: Test Plans
 
 Exploratory Testing
 
@@ -35,12 +35,11 @@ Exploratory Testing
   * READING: AFIST, Chapter 12-13
   
 * (20 Sep) Unit Testing Part 2
-  * Unit Testing Exercise (EX3)
   * READING: AFIST, Chapter 14
 
 ## WEEK 5 (25 and 27 Sep)
 
-* (25 Sep) Exercise 2: Unit Testing
+* (25 Sep) EX2: Unit Testing
 
 * (27 Sep) Test-driven Development
   * READING: AFIST, Chapter 15
@@ -50,7 +49,7 @@ Exploratory Testing
 * (2 Oct) Writing Testable Code
   * READING: AFIST, Chapter 16
 
-* (4 Oct) Exercise 3: Unit Testing and TDD
+* (4 Oct) EX3: Unit Testing and TDD
 
 ## WEEK 7 (10 and 11 Oct)
 
@@ -68,21 +67,18 @@ _Note: Classes that are normally held on Monday are shifted to Tuesday on this w
 
 * (18 Oct) Automated System Testing, Part 2
 
-
 ## WEEK 9 (23 and 25 Oct)
 
-* (23 Oct) Exercise 4: Automated System Testing
+* (23 Oct) EX4: Automated System Testing
 
 * (25 Oct) Performance Testing, Part 1
   * READING: AFIST, Chapter 19
-
-
 
 ## WEEK 10 (30 Oct and 1 Nov)
 
 * (30 Oct) Performance Testing, Part 2
 
-* (1 Nov) Exercise 5: Performance Testing
+* (1 Nov) EX5: Performance Testing
 
 ## WEEK 11 (6 and 8 Nov)
 
@@ -92,7 +88,7 @@ _Note: Classes that are normally held on Monday are shifted to Tuesday on this w
 
 ## WEEK 12 (13 and 15 Nov)
 
-* (13 Nov) Exercise 6: Static Analysis
+* (13 Nov) EX6: Static Analysis
 
 * (15 Nov) Developing and Managing a Testing Strategy 
 
@@ -115,7 +111,7 @@ _Note: Classes that are normally held on Monday are shifted to Tuesday on this w
 * (6 Dec) Security Testing
   * READING: AFIST, Chapter 20
 
-* (8 Dec) Exercise 7: Penetration Testing
+* (8 Dec) EX7: Penetration Testing
 
 
 

@@ -51,7 +51,7 @@ This course provides students with a broad understanding of modern software test
   * Includes numerous in-class exercises and lectures
   * See below
 
-Although you are not required to come to every class, it is strongly recommended that you do.  Attendance _will_ be taken for days with class exercises, and this will count for your class participation.  These days are listed on the syllabus as EX_n_ (where _n_ is in the range {1,10}).
+Although you are not required to come to every class, it is strongly recommended that you do.  Attendance _will_ be taken for days with class exercises, and this will count for your class participation.  These days are listed on the syllabus as EX_n_ (where _n_ is in the range {1,7}).
 
 The following grading scale will be used.  
 
@@ -87,8 +87,8 @@ Lecture attendance for non-exercise classes is not required, but is STRONGLY rec
 ## Project Details
 
 * **Deliverable 1:** A test plan and traceability matrix for a system.
-* **Deliverable 2:** Creation of an application using unit tests.
-* **Deliverable 3:** Automated system-level tests.
+* **Deliverable 2:** Developing an application using unit tests.
+* **Deliverable 3:** Automated system-level tests of an application.
 * **Deliverable 4:** Performance testing and improvement of an application.
 * **Deliverable 5:** Developing a system with the help of static analysis.
 * **Deliverable 6:** Developing and testing a large application.
