@@ -98,8 +98,6 @@ Lecture attendance for non-exercise classes is not required, but is STRONGLY rec
 * **Deliverable 5:** Developing a system with the help of static analysis.
 * **Deliverable 6:** Developing and testing a large application.
 
-Deliverables must be handed in on the day that it is due for full credit.  You may turn in your deliverables one "class day" late (i.e., the next time the class meets, e.g., if the deliverable is due on Monday, you may turn it in on Wednesday), but you will receive a -20 point (20%) penalty.  Assignments will not be accepted more than one "class day" late (i.e., you will receive a 0 for the assignment and it will not be graded) unless previously cleared with the instructor.
-
 ## Programming Language Selection
 
 For all deliverables, the class will use Java 1.8 or later with the appropriate frameworks (e.g., git, JUnit, Mockito, Selenium, FindBugs, checkstyle) as discussed in class.  Projects written in other languages or using alternative frameworks will generally not be accepted.
