@@ -97,17 +97,17 @@ _Note: Classes that are normally held on Monday are shifted to Tuesday on this w
 
 ## WEEK 14 (30 Nov and 1 Dec)
 
-* (30 Nov) Interacting With Stakeholders
+* (27 Nov) Interacting With Stakeholders
   * READING: AFIST, Chapter 21
 
-* (1 Dec) MIDTERM 2
+* (29 Nov) MIDTERM 2
 
 ## WEEK 15 (6 and 8 Dec)
 
-* (6 Dec) Security Testing
+* (4 Dec) Security Testing
   * READING: AFIST, Chapter 20
 
-* (8 Dec) EX7: Penetration Testing
+* (6 Dec) EX7: Penetration Testing
 
 
 
