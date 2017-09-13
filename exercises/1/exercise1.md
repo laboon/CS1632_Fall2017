@@ -3,7 +3,7 @@ Fall Semester 2017 - Exercise 1
 
 For this exercise, your group will determine a test plan for the simple simulator GoatGoatCar, based on the requirements listed.  There are several known defects in the software; you will need to find and report on at least two.  Additionally, a traceability matrix showing the mapping of test cases to requirements is required.  
 
-There should be eight test cases altogether.
+There should be six (no more, no less) test cases altogether.
 
 Each requirement should have AT LEAST one test case associated with it, and each test should have EXACTLY ONE requirement associated with it.  This can easily be checked via a traceability matrix (which you should also deliver).  Note that some test cases may actually test several requirements.  You should specify the one that the test case fits best - that is, what are you really trying to test with this test case?
 
@@ -39,11 +39,16 @@ Remember the correct format for defects -
 
 Other attributes of a defect (e.g., SEVERITY or IMPACT) are not necessary.  The test case which found the defect should be listed as part of the DESCRIPTION.
 
+A traceability matrix shows allows us to determine that our test cases are checking requirements, and that our requirements have test coverage.  See Chapter 6 section 6 (6.6) in the textbook for examples and detail on creating them.
+
+Note that it is NOT necessary for all requirements to be covered by this assignment!
+
 ## Grading
 
 ```
 Test cases - 1.0 point
-Defects (2) - 1.0 point
+Defects (2) - 0.7 points
+Traceability Matrix - 0.3 points
 Total: 2 points
 
 You may get partial credit for either part.
