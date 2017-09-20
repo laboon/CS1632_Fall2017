@@ -26,7 +26,7 @@ It may be easier to understand the map of the city visually.
 City Map
 	
                 ---> [Hotel] ----> [Diner] ----> Fourth Ave. (to Philadelphia)
-                      A  |          A  |
+                      ^  |          ^  |
               Bill St.|  |          |  | Phil St.
                       |  V          |  V
  (to Cleveland) <--- [Library] <-- [Coffee] <--- Fifth Ave.
