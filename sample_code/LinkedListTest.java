@@ -40,7 +40,7 @@ public class LinkedListTest {
 	@Test
 	public void testZeroList() {
 		LinkedList<Integer> ll = new LinkedList<Integer>();
-		ll.clear();
+		ll.clear();		
 		assertNull(ll.getFront());
 	}
 
