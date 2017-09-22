@@ -27,7 +27,7 @@ Note that this project is a very, very simple implementation of a blockchain, mi
 3. The Ethereum Yellowpaper (the implementation of Ethereum) - https://github.com/ethereum/yellowpaper
 4. "Mastering Bitcoin" by Andreas Antonopoulos (book on the technical details of Bitcoin)
 5. "Introducing Ethereum and Solidity" by Chris Dannen (book introducing Ethereum)
-6. "CryptoNote v2.0" by Nicolas van Saberhagen (article on the technology eventually implemented as the cryptocurrency Monero)
+6. "CryptoNote v2.0" by Nicolas van Saberhagen (alias) (article on the technology eventually implemented as the cryptocurrency Monero)
 
 ## Sample Output
 
