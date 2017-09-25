@@ -1,4 +1,4 @@
-# Exercise 3 - JUnit and LaboonCoin 
+# Exercise 2 - JUnit and LaboonCoin 
 
 You have probably heard of Bitcoin or another cryptocurrency such as Ethereum, Litecoin, or Monero.  Today we are going to make our own blockchain to create a very simple way of storing data and cryptographically verifying it.  We will do so by filling in a template program, LaboonCoin, and write tests to ensure that your methods are doing what you expect them to be doing.
 
