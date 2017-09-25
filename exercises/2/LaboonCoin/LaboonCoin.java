@@ -80,7 +80,7 @@ public class LaboonCoin {
      */
     
     public int hash(String data) {
-	// TODO
+	// TODO - IMPLEMENT LABOONHASH
 	return -1;
     }
 
@@ -100,7 +100,7 @@ public class LaboonCoin {
      */
     
     public boolean validHash(int difficulty, int hash) {
-	// TODO
+	// TODO - CHECK FOR VALID HASHES
 	return false;
     }
 
