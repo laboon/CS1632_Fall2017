@@ -73,7 +73,7 @@ public class LaboonCoin {
      * Thus it will be 1428150834, or 0x551fda32.
      * Some other helpful examples for testing are below.
      * "bill" (no quotes) hashes to 0x53c4142c
-     * "laboon" (no quotes) hashes to 4e4587d6
+     * "laboon" (no quotes) hashes to 0x4e4587d6
      * null or the empty string hash to 0x00989680
      * @param data - entire piece of data to hash
      * @return int - hash value using LaboonHash algorithm
@@ -191,7 +191,7 @@ public class LaboonCoin {
      * This corresponds to how many 0's must be at the beginning of a
      * hash for it to be valid and for the block to be mined.
      * If this cannot be read or parsed, it will default to a difficulty
-     * of 1.
+     * of 3.
      * @param args[] - command line arguments
      */
     

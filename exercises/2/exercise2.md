@@ -93,6 +93,8 @@ First, we need to create a test runner.  I have created a simple one (TestRunner
 
 To run it, you will need to compile it and ensure that the junit and hamcrest jars are in your classpath.  These are included in the repository for your convenience.
 
+Note that the `$` is my command prompt.  Do not type that in.
+
 ```
 $ javac -cp .:./junit-4.12.jar:./hamcrest-core-1.3.jar *.java
 
@@ -133,16 +135,17 @@ For a more detailed understanding, I recommend reading my "Friendly Introduction
 
 ### Adding Appropriate Files and Pushing Back To GitHub
 
-1. Ensure that you have completed the project.
+1. Copy over all of the files from the exercises/2/LaboonCoin subdirectory.  You may do this by first cloning down my repository (see instructions above) or downloading each individual file using the GitHub web interface.
+1. Ensure that you have completed the project - the 
 2. Copy your files to the git repo's directory.
-3. Type `git add .`
-4. Type `git commit -am "final"`
-5. Type `git push origin master`
-6. Go to https://github.com/YOUR_GITHUB_USERNAME/CS1632_Exercise2 in your browser and ensure that you see all of the files you expected to see.
+3. Type `git add .` (this will add all files to git)
+4. Type `git commit -am "final"` (this will commit them all)
+5. Type `git push origin master` (this will push your changes up to GitHub)
+6. Go to https://github.com/YOUR_GITHUB_USERNAME/CS1632_Exercise2 in your browser and ensure that you see all of the files you expected to see.  If you are truly paranoid (always a good thing in a software tester!), you can try to clone down your finished repo to a different computer and ensure it works on that other computer first.
 
 ### Submission
 
-Email me a link to repository (e.g., https://github.com/YOUR_GITHUB_USERNAME/CS1632_Exercise3) and the names and github usernames (as well as their actual names) of the people who worked on it.  This should be done _before_ next Tuesday's class class (i.e., you have one week to work on it).
+Email me a link to repository (e.g., https://github.com/YOUR_GITHUB_USERNAME/CS1632_Exercise3) and the real names and github usernames of the people who worked on it.  This should be done _before_ next Monday's class class (i.e., you have one week to work on it).
 
 ```
 Grading:
