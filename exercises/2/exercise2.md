@@ -101,7 +101,7 @@ $ javac -cp .:./junit-4.12.jar:./hamcrest-core-1.3.jar *.java
 $ java -cp .:./junit-4.12.jar:./hamcrest-core-1.3.jar TestRunner
 ```
 
-Replace ":" with ";" on Windows machines ( `java -cp .;./junit-4.12.jar;./hamcrest-core-1.3.jar TestRunner` ) .  If you are using Windows 7, you will also need to put the classpath argument entirely in quotes ( `java -cp ".;./junit-4.12.jar;./hamcrest-core-1.3.jar" TestRunner` )
+Replace ":" with ";" on Windows machines ( `java -cp .;./junit-4.12.jar;./hamcrest-core-1.3.jar TestRunner` ) .  If you are using Windows 7, 8 or 10, you will also need to put the classpath argument entirely in quotes ( `java -cp ".;./junit-4.12.jar;./hamcrest-core-1.3.jar" TestRunner` )
 
 Don't use "~" or other shortcuts when referring to the path that the `junit` and `hamcrest` jar files live.  Your Java files may compile but then won't run - the `-cp` option in `javac` parses paths different than the `-cp` option in `java`.  This is because LOL programming.
 

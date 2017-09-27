@@ -16,7 +16,7 @@ You should turn in a title page with:
 * The URL of your code and tests on GitHub or GitLab
 * The title "CS 1632 - DELIVERABLE 2: Unit Testing CitySim9005"
 
-ENSURE THAT THE THE TA AND I ARE ADDED AS A COLLABORATOR AND CAN CLONE YOUR REPOSITORY!  My username is laboon on both GitHub and Gitlab.  The TA's username will be emailed to you shortly.  You will lose an automatic 10 points if either I or the TA cannot access your repository.  If you are using GitLab instead of GitHub, please just add me as a collaborator (username is still laboon), not the TA.
+ENSURE THAT THE THE TA AND I ARE ADDED AS A COLLABORATOR AND CAN CLONE YOUR REPOSITORY!  My username is `laboon` on both GitHub and Gitlab.  The TA's username will be emailed to you shortly - it is `lilonghao720`.  You will lose an automatic 10 points if either I or the TA cannot access your repository.  If you are using GitLab instead of GitHub, please just add me as a collaborator (username is still laboon), not the TA.
 
 Add a short ( < 1 page ) description of issues you faced when writing this code and tests.  If any tests you wrote fail, they should be included here, along with why you think that they are failing.
 

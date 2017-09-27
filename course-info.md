@@ -19,6 +19,8 @@ Software Quality Assurance - Fall 2017
 
 **TA**:
 
+Longhao Li - Github username: lilonghao720, email: lol16 at pitt dot edu
+
 TBD
 
 **Class GitHub repo:** https://www.github.com/laboon/CS1632_Fall2017  
