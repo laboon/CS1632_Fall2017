@@ -56,7 +56,9 @@ Closing up shop for the day!
 ```
 
 
-You should also write appropriate unit tests for each public method.  For each of the modified public method in RentACat.java, write at least two unit tests.
+You should also write appropriate unit tests for each public method.  There should be at least one unit test per method, and a total of at least SIX unit tests.  You may group these however you like - (e.g., one unit test for three methods, and three for the last one; two unit tests for two methods, one unit test each for the other two; etc.)
+
+Note that while I have provided a TestRunner, I have NOT provided a Test file!  You will need to create the Test file as well as modify the TestRunner to include the correct classes.  You can view the CommandLineJunit subdirectory for an example of how to do this.
 
 You should use test doubles/mocks for any references to classes other than the one under test (i.e., double or mock any Cat objects).  You may use an ArrayList of doubled objects (that is, you do not need to double ArrayList itself).
 
