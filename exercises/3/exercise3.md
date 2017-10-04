@@ -129,7 +129,9 @@ public int lotsOfQuacks(Duck d) {
 * Testing println's or other output is difficult - try to have methods return Strings which are easier to test.  It is possible to test for I/O but it requires some extra steps - see Chapter 14, Section 6 of the textbook for instructions.
   
 
-Please send me a link to the GitHub repository where you stored it before the beginning of the next class, along with any partner with whom you worked on the project.
+Please send me a link to the GitHub repository where you stored it before the beginning of the next class, along with any partner with whom you worked on the project.  Be sure to CC your partner so that they know the email was sent!
+
+If you finish by 9 AM tomorrow morning, I will send you feedback which may help you in your deliverable.  If you send it after then, I may not get a chance to review it before the deliverable is due (although I will do my best).
 
 ```
 Program works correctly: 0.5 point
