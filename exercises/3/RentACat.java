@@ -210,6 +210,7 @@ public class RentACat {
 			    }
 			} catch (Exception nfex) {
 			    System.err.println("Invalid cat ID.");
+			    sc.next();
 			}
 		    }
 
