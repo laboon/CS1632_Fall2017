@@ -72,7 +72,6 @@ However, here are the key topics to study in preparation for the test.
 ## WRITING TESTABLE CODE
 * Basic strategies for testable code
 * The DRY Principle
-* The SOLID Principles
 * The Law of Demeter
 * TUFs and TUCs
 
