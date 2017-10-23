@@ -6,5 +6,5 @@
 4. The Fibonacci page (`/fib`) shall allow a user to enter a positive integer from 1 to 100, and upon pressing submit, shall show to the user the Fibonnaci of the value (e.g. "Fibonacci of 5 is 8!").
 5. For both the Fibonacci and Factorial pages, if a user enters an invalid value of any kind, they shall be informed that the value is 1 (e.g., "Fibonacci of -100 is 1!")
 6. Accessing the hello page (`/hello`) with no trailing values in the URL shall display the message "Hello CS1632, from Prof. Laboon!".
-7. If a trailing value is provided in the URL when accessing the `/hello` page, then the message shall display hello from that trailing value.  For example, when accessing `/hello/Jazzy`, the system shall display "Hello CS1632, from Jazzy".  This shall work for all input values.
+7. If a trailing value is provided in the URL when accessing the `/hello` page, then the message shall display hello from that trailing value.  For example, when accessing `/hello/Jazzy`, the system shall display "Hello CS1632, from Jazzy!".  This shall work for all input values.
 8. The Cathedral page (`/cathy`) shall display three images of the Cathedral of Learning in a numbered list.
