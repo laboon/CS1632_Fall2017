@@ -53,7 +53,7 @@ Requirements for the application are listed in the `requirements.md` file in thi
 
 Remember to check for implicit as well as explicit requirements!
 
-You should have at least one test for each requirement, although there is no need to write a traceability matrix.
+You should have at least one test for each requirement.
 
 ## Defects
 
