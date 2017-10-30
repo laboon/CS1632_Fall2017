@@ -21,7 +21,11 @@ See sample_output.txt for samples.
 
 You should work on making this program execute as quickly as possible.  You may use all computing resources available to you.  This will be run on a four-core system with eight gigabytes of RAM.  No other programs will be running at the time.
 
-Your program will be timed using the sample_input.txt text file.  Make sure that your code works with this.  
+Your program will be timed using the sample_input.txt text file.  Make sure that your code works with this.
+
+The fastest three programs in the class will receive bonus points.
+
+You should explain how your program has been sped up in your summary.  You should do at least one modification to speed it up after initial input.
 
 ## Format
 Every assignment should have a title page with:
