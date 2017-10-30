@@ -1,0 +1,59 @@
+$ echo "Note: cat displays the file"
+Note: cat displays the file
+
+$ cat tsars.txt
+Tsar Meow
+Tsar Ra
+Tsar Nicholas
+
+$ java Element tsars.txt
+Could not create name "Tsar Meow" out of elements.
+Ts - Ar - Ra
+Tennessine - Argon - Radium
+Ts - Ar - Ni - C - Ho - La - S
+Tennessine - Argon - Nickel - Carbon - Holmium - Lanthanum - Sulfur
+
+$ cat fds
+cat: fds: No such file or directory
+
+$ java Element fds
+Error: File "fds" does not exist.
+
+$ java Element tsars.txt boo.txt
+Error: Enter only one argument, the file to read.
+
+$ echo "Note: noogie.txt has blank lines in it. These are ignored."
+Note: noogie.txt has blank lines in it. These are ignored.
+
+$ cat noogie.txt
+
+Laboon
+
+Laboon
+
+Allison
+
+Boo
+
+Bill
+
+$ java Element noogie.txt
+La - B - O - O - N
+Lanthanum - Boron - Oxygen - Oxygen - Nitrogen
+La - B - O - O - N
+Lanthanum - Boron - Oxygen - Oxygen - Nitrogen
+Al - Li - S - O - N
+Aluminum - Lithium - Sulfur - Oxygen - Nitrogen
+B - O - O
+Boron - Oxygen - Oxygen
+Could not create name "Bill" out of elements.
+
+$ cat lala.txt
+Lala Mc'Boo*&
+La&&&La&&&Ra
+
+$ java Element lala.txt
+La - La - Mc - B - O - O
+Lanthanum - Lanthanum - Moscovium - Boron - Oxygen - Oxygen
+La - La - Ra
+Lanthanum - Lanthanum - Radium
