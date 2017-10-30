@@ -34,7 +34,7 @@ Every assignment should have a title page with:
 
 There is no need to print out the code.  It should be available on GitHub or a similar code-sharing site BY THE BEGINNING OF CLASS.
 
-In order to determine the "hot spots" of the application, you will need to run a profiler such as VisualVM (download at https://visualvm.java.net/).  Using a profiler, determine what code/methods/objects you can modify to speed up the execution time of this program.  
+In order to determine the "hot spots" of the application, you will need to run a profiler such as VisualVM (download at https://visualvm.github.io/).  Using a profiler, determine what code/methods/objects you can modify to speed up the execution time of this program.  
 
 For the summary, describe how you profiled the application and determined the methods to refactor, and why you changed what you did.  The summary should not be more than a few paragraphs - definitely less than a page. 
 
