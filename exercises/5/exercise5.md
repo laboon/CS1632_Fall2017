@@ -1,10 +1,9 @@
 # Exercise 5 Performance Testing Exercise
 
-For this exercise, you and a partner will profile some monkey simulation software, and improve its performance by refactoring two methods (to be determined by the results of the profiling), as well as writing appropriate pinning tests for each of them.  This will consist of several parts:
+For this exercise, you and a partner will profile some monkey simulation software, and improve its performance by refactoring two methods (to be determined by the results of the profiling).  This will consist of several parts:
 
 1. Profiling (before) to determine which methods are the most CPU-intensive
-2. Adding at least two pinning tests (in the form of unit tests) to each modified method to show that the functionality is unchanged by your modifications
-3. Refactoring the method to be more performant (from a CPU and time perspective)
+3. Refactoring two methods to be more performant (from a CPU and time perspective)
 4. Profiling (after) showing that your rewrite helped make your method more performant
 
 Code is available on Github (https://github.com/laboon/MonkeySim).
@@ -31,16 +30,15 @@ In case of ambiguity in the requirements, the sample_runs.txt file shall be cons
 
 If you encounter an infinite loop (where, if the algorithm is implemented correctly, the first monkey NEVER gets the banana), you will receive a __sizable__ amount of extra credit, assuming you let me know the initial number you entered.
 
-In order to determine the "hot spots" of the application, you will need to run a profiler such as VisualVM (download at https://visualvm.java.net/).  Using a profiler, determine a method you can use to measurably increase the speed of the application without modifying behavior.  
+In order to determine the "hot spots" of the application, you will need to run a profiler such as VisualVM (download at https://visualvm.github.io/).  Using a profiler, determine a method you can use to measurably increase the speed of the application without modifying behavior.
 
-As part of this assignment, you should create "pinning tests".  Pinning tests are unit tests which should check that the behavior of a modified method was not changed by your refactor (see the chapter on testing legacy code in AFIST for examples).  This program should work EXACTLY the same as before, except it should be faster and take up less CPU time.  The only exception is if you come across an error and fix it - no points will be taken off as long as you note it in your email.
+This program should work EXACTLY the same as before, except it should be faster and take up less CPU time.  The only exception is if you come across an error and fix it - no points will be taken off as long as you note it in your email.
 
-There should be at least two pinning tests per method modified (check different edge cases).  
 
 You should email me a link to your fixed MonkeySim code by the beginning of the next class.
 
 ```
-Methods changed, performance improved: 1 point
-Pinning tests (4): 1 point
+Method 1 changed, performance improved: 1 point
+Method 2 changed, performance improved: 1 point
 ```
  
