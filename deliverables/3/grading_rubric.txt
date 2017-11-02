@@ -1,0 +1,58 @@
+Summary and testing concerns (5%):
+
+Summary and concerns:                                     _____ / 5
+  * Specify any issues had by student (-4 if not)
+  * More than one typo, -1 per each (up to -3)
+
+Screenshot of executed unit tests (5%):                   _____ / 5
+
+Comment descriptions of tests (10%):
+
+Every test commented :                                    _____ / 5
+  * -2 for each one not commented, up to -5
+
+Test comment quality :                                    _____ / 5
+  * Explain what the test is testing (-1 for each
+    that does not, or -2 if egregious, e.g. blank)
+
+JUnit tests (50%):
+
+Maximum 10/50 if tests written but cannot compile/run!
+
+Tests compile and execute:                                _____ / 5
+
+Happy path cases checked:                                 _____ / 15
+  * At least five "normal" happy path cases
+
+Edge cases checked:                                       _____ / 10
+  * At least two edge cases checked 
+
+Defects caught:                                           _____ / 10
+  * At least three tests should fail and they
+    should line up with the reported defects (-3 for each not)
+
+Good style:                                               _____ / 5
+  * No gratuitously ugly, superfluous, or commented code (up to -5)
+
+
+Defects (30%):
+
+If not at least three defects, maximum 15/30 on this section
+
+Three valid defects found:                                _____ / 15
+  * Defect lines up with failed unit test (-2 if not)
+  * Defect actually occurs (-5 if not)
+
+Defects reported properly:                                _____ / 15
+  * Expected behavior / observed behavior / repro steps (-4 for each
+    test case incorrectly reported)
+  * General quality (well-specified, well-written)
+
+-----
+
+Submission issues (-10) or other adjustments:             _____
+
+Total:                                                    _____ / 100
+
+
+
