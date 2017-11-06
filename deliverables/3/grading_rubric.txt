@@ -8,14 +8,11 @@ Screenshot of executed unit tests (5%):                   _____ / 5
 
 Comment descriptions of tests (10%):
 
-Every test commented :                                    _____ / 5
-  * -2 for each one not commented, up to -5
+Test comment quality :                                    _____ / 10
+  * Explain what the test is testing (-2 for each
+    that does not, or -3 if egregious, e.g. blank)
 
-Test comment quality :                                    _____ / 5
-  * Explain what the test is testing (-1 for each
-    that does not, or -2 if egregious, e.g. blank)
-
-JUnit tests (50%):
+JUnit tests (45%):
 
 Maximum 10/50 if tests written but cannot compile/run!
 
@@ -34,12 +31,11 @@ Defects caught:                                           _____ / 10
 Good style:                                               _____ / 5
   * No gratuitously ugly, superfluous, or commented code (up to -5)
 
+Defects (25%):
 
-Defects (30%):
+If not at least three defects, maximum 10/25 on this section
 
-If not at least three defects, maximum 15/30 on this section
-
-Three valid defects found:                                _____ / 15
+Three valid defects found:                                _____ / 10
   * Defect lines up with failed unit test (-2 if not)
   * Defect actually occurs (-5 if not)
 
@@ -48,6 +44,8 @@ Defects reported properly:                                _____ / 15
     test case incorrectly reported)
   * General quality (well-specified, well-written)
 
+Traceability Matrix                                       _____ / 10
+  * Has
 -----
 
 Submission issues (-10) or other adjustments:             _____
