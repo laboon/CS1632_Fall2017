@@ -39,7 +39,7 @@ Checkstyle Usage Example:
 java -jar ~/checkstyle/checkstyle-7.0-all.jar -c ./google_checks_modified.xml ~/pitt/CS1632/*.java
 ```
 
-For the summary, include a listing of the issues you found with your code and .  This should not be more than a few paragraphs.  
+For the summary, include a listing of the issues you found with your code.  This should not be more than a few paragraphs.  
 
 Include screenshots of both the FINAL findbugs and checkstyle output (should have no errors for either).
 
