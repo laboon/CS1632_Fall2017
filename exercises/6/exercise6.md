@@ -6,6 +6,8 @@ The Sieve of Eratosthenes is an ancient way of finding all prime numbers below a
 
 This program accepts one integer value and will tell you all prime numbers up to and including the passed-in value.  However, there are some defects hidden in the code.  You are going to use FindBugs to find and fix them.
 
+Please either show me your corrected code in class _or_ send me an email with a link to a repository containing the fixed code AS WELL AS a screenshot of FindBugs with no possible bugs found (except Dead Local Store issues - see Note 1, below)
+
 Examples:
 
 ```
