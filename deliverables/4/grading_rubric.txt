@@ -1,0 +1,29 @@
+Summary:                                                _____ / 10
+  * Specify any issues had by student (-4 if not)
+  * More than one typo, -1 per each (up to -3)
+
+VisualVM Screenshot:                                    _____ / 10
+
+Final times (>3 of each + mean):                        _____ / 10
+
+Code and Execution speed :                              _____ / 50
+  * Error message if <1 or >1 argument (-5 if not)
+  * Error message if file does not exist (-5 if not)
+  * Ignores non-alpabetic characters (-5 if not)
+  * Processes sample_input.txt correctly (-4 per issue)
+  * Processes sample_input2.txt correctly (-4 per issue)
+  
+JUnit tests (20%):
+
+Tests compile and pass:                                 _____ / 2
+  * Tests are well-commented (-2 each if not)
+  * Tests have proper assertions (-4 each if not)
+  * Tests good mix of base and edge cases (up to -5)
+  * At least 12 (-5 per each unit test under 12, up to -20)
+
+Submission issues (-10) or other adjustments:           _____
+
+Total:                                                  _____ / 100
+
+
+
