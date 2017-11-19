@@ -95,6 +95,8 @@ $ java RPN
 14
 > PRINT c 1 +
 15
+> 10 10 * 5 5 * 0 0 * + +
+125
 > QUIT
 
 $
@@ -202,6 +204,17 @@ PRINT c
 
 $ java RPN Bad3.rpn
 Line 2: Operator + applied to empty stack
+
+$ cat Bad4.rpn
+PRINT 1
+LET a 100 100 +
+LET b 60 +
+LET c a b +
+PRINT c
+
+$ java RPN Bad4.rpn
+1
+Line 3: Operator + applied to empty stack
 ```
 
 ## Format
