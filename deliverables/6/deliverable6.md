@@ -5,17 +5,17 @@ DUE 7 DEC 2017
 
 ## Deliverable 6
 
-For this final deliverable, you and a partner will develop a project from scratch (see details) below, along with a detailed report on the testing strtegy used.
+For this final deliverable, you and a partner will develop a project from scratch (see details) below, along with a detailed report on the testing strategy used.
 
-Expect no mercy from my testing.  This is a relatively simple program but you will be expected to deal with all edge cases, find defects ahead of time, think of performance issues as explained in the requirements, etc.  I expect as close to bullet-proof an application as one could be expected to deliver, and that you have proved this by creating a good testing strategy based on all that we have learned this term.
+Expect no mercy from my testing!  This is a relatively simple program but you will be expected to deal with all edge cases, find defects ahead of time, think of performance issues as explained in the requirements, etc.  I expect as close to bullet-proof an application as one could be expected to deliver, and that you have proved this by creating a good testing strategy based on all that we have learned this term.
 
 You will develop an entire testing strategy for the application.  This testing strategy should cover all aspects of testing that we have covered.  It should show that you have thought deeply about the particular concerns of this piece of software.
 
 I expect you to do independent research to determine general information about how to develop this application.  You may also wish to review the syllabus to see all of the kinds of testing that we have discussed this semester and when they are relevant.
 
-You must cite any sources that you use.  I do not care if you use MLA, Chicago, APA, IEEE, or any other citation style, but I should be able to look up your citations myself.
-
 Your paper should include the following three sections.  You should LABEL each section clearly.  You may use graphs, charts, etc. if these would help in understanding your position.
+
+You are not _required_ to create a traceability matrix for this assignment, but it would be a good addition to ensure that you have verified all of the requirements.
 
 1. A review of the program's overall quality.  This should be done using the Red-Yellow-Green template.  It is up to you to determine the subsets of functionality and/or subsystems.
 2. Areas of concern.  We want the program to compare favorably in terms of features and quality with similar software.  If there are known defects, list them here.  These should be written using the standard defect template.  It is much better for your grade if you find a defect yourself and report it than if I find it.
@@ -27,9 +27,9 @@ Your paper should include the following three sections.  You should LABEL each s
    7. What kinds of things did you discover in exploratory testing?
    8 If you developed a manual testing plan, include it here.
 
-## Program
+## Program Functionality
 
-You are going to develop a simple language, RPN++.  This allows user to calculate using Reverse Polish Notation.  It also supports simple output via the PRINT keyword and variables.
+You are going to develop an interpreter for a simple language, RPN++.  This allows user to calculate using Reverse Polish Notation.  It also supports simple output via the PRINT keyword, variables, and the ability to quit.
 
 Running the program without a filename will cause the program to enter a read-eval-print-loop (REPL).  In REPL mode, users can enter expressions one line at a time.  REPLs are widely used in many programming languages such as Ruby, Clojure, and Lisp.
 
@@ -47,11 +47,10 @@ Detailed requirements are listed below.
 1. The keyword QUIT causes the program to end.
 1. Any lines or tokens after the QUIT keyword are ignored.
 1. The keyword LET is followed by a single-letter variable, then an RPN expression.  The RPN expression is evaluated and the value of the variable is set to it. 
-1. The keyword PRINT when followed by a number will print that number to standard output (stdout).
-1. The keyword PRINT when followed by a variable will print the value of that variable to standard output (stdout).
-1. Keywords are case-insensitive (e.g. `print`, `PRINT`, or `pRiNt` are interchangeable)
-1. Keywords may only start a line (e.g., you cannot have a line such as "1 2 + PRINT 3")
-1. Variables are considered initialized once they have been LET.
+1. The keyword PRINT is followed by an expression, and the interpreter shall print the result of that expression to standard output (stdout).
+1. Keywords shall be case-insensitive (e.g. `print`, `PRINT`, or `pRiNt` are interchangeable)
+1. Keywords shall only start a line (e.g., you cannot have a line such as "1 2 + PRINT 3")
+1. Variables shall be considered initialized once they have been LET.  It shall be impossible to declare a variable without initializing it to some value.
 1. Referring to a variable which has not previously been LET (i.e. has not been declared) shall result in the program informing the user that the variable is uninitialized and QUIT the program with error code 1.  It should inform the user in the following format: "Line n: Variable x is not initialized." where `x` is the name of the variable and `n` is the line number of the file the error occurred in.
 1. The exception to the previous requirement is that if this occurs in REPL mode, the user shall be informed, but the line will simply be ignored.
 1. If the stack for a given line is empty OR does not contain the correct number of elements on the stack for that operator, and an operator is applied, the program shall inform the user and QUIT the program with error code 2.  It should inform the user in the following format: "Line n: Operator o applied to empty stack" where `o` is the operator used and `n` is the line number the error occurred in.
@@ -69,7 +68,7 @@ Detailed requirements are listed below.
 1. This program shall minimize real execution time, even at the expense of memory or CPU usage.
 1. The ">" character shall be used as the prompt for REPL mode.
 1. In case of ambiguity, the sample output shall be considered the ground truth.
-1. When reading multiple files, all of the files shall be concatenated into one large file before processing.  For example, when executing file1.rpn and file2.rpn, and file1.rpn initializes a variable A, file2.rpn can use variable A without initializing it.  Similarly, if a QUIT is encountered at the end of file1.rpn, the entire program will quit and
+1. When reading multiple files, all of the files shall be concatenated into one large file before processing.  For example, when executing file1.rpn and file2.rpn, and file1.rpn initializes a variable A, file2.rpn can use variable A without initializing it.  Similarly, if a QUIT is encountered at the end of file1.rpn, the entire program will quit and no lines in file2.rpn shall be executed.
 1. Blank lines in files shall be ignored.
 1. Lines in files are considered to be 1-indexed, that is, the first line in a file is line number 1, not 0.
 
