@@ -71,6 +71,7 @@ Detailed requirements are listed below.
 1. When reading multiple files, all of the files shall be concatenated into one large file before processing.  For example, when executing file1.rpn and file2.rpn, and file1.rpn initializes a variable A, file2.rpn can use variable A without initializing it.  Similarly, if a QUIT is encountered at the end of file1.rpn, the entire program will quit and no lines in file2.rpn shall be executed.
 1. Blank lines in files shall be ignored.
 1. Lines in files are considered to be 1-indexed, that is, the first line in a file is line number 1, not 0.
+1. Variable values shall not be persisted across executions.  In other words, if I initialize a variable `a`, then quit the program and start it again, variable `a` is no longer initialized.
 
 ## Sample Output
 
