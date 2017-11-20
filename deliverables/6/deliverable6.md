@@ -72,6 +72,7 @@ Detailed requirements are listed below.
 1. Blank lines in files shall be ignored.
 1. Lines in files are considered to be 1-indexed, that is, the first line in a file is line number 1, not 0.
 1. Variable values shall not be persisted across executions.  In other words, if I initialize a variable `a`, then quit the program and start it again, variable `a` is no longer initialized.
+1. Tokens shall be separated by whitespace.
 
 ## Sample Output
 
