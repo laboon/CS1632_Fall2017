@@ -73,6 +73,7 @@ Detailed requirements are listed below.
 1. Lines in files are considered to be 1-indexed, that is, the first line in a file is line number 1, not 0.
 1. Variable values shall not be persisted across executions.  In other words, if I initialize a variable `a`, then quit the program and start it again, variable `a` is no longer initialized.
 1. Tokens shall be separated by whitespace.
+1. For concatenated files, the line number shall continue to increment for each line of the file.  It shall not reset after a new file has been reached.
 
 ## Sample Output
 
