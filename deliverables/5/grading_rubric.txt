@@ -1,0 +1,37 @@
+Summary:                                         ____ / 5
+  * -4 if no issues/details given
+  * -3 if > 1 grammatical error
+
+* Screenshots of Findbugs and checkstyle output  ____ / 5
+  * -3 if only one or the other
+
+* Functionality (25%):                           ____ / 25
+  * If code does not compile,  0/25 on this section
+  * -5 if it does handle no command-line args
+  * -5 if appropriate message not shown for 1 arg
+  * -10 if it does not show truth table for 2 args
+  * -10 if does not show valid covering array for 3 args
+  * -10 if does not show valid covering array for 4 args
+  * -5 if "true" is not shown as 1, "false" as 0
+  * -5 if program name is not "Pairwise"
+  
+* Unit tests (25%):                              ____ / 25
+  * If tests do not compile, 0/25 on this section
+  * -4 for each test not commented
+  * -4 if test commented, but comments are wrong
+  * -5 for each test with no assertion
+  * -5 for each method (besides main) not tested
+  * If <12 tests, -5 for each number below 12
+  * -5 for "invalid" tests (e.g., tests which always pass)
+  * -4 for each test that fails
+
+All checkstyle issues fixed:                     ____ / 20
+  * -5 for each error still found
+  * -3 if documented but not fixed
+  
+All FindBugs issues fixed                        ____ / 20
+  * -7 for every issue FindBugs still finds
+  * -5 if found, but documented why not fixed
+  * EXCEPT Dead Local Store, ignore those
+
+TOTAL:                                           ____ / 100
