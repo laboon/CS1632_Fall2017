@@ -25,7 +25,7 @@ You are not _required_ to create a traceability matrix for this assignment, but 
    5. What recommendations would you give to help increase quality?
    6. What parts of the code need to be cleaned up?
    7. What kinds of things did you discover in exploratory testing?
-   8 If you developed a manual testing plan, include it here.
+   8. If you developed a manual testing plan, include it here.
 
 ## Program Functionality
 
