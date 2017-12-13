@@ -1,0 +1,36 @@
+* Quality Review                                         ____ / 10
+
+
+
+* Description of issues / enhancements                   ____ / 10
+
+
+
+* Description of testing strategy                        ____ / 10
+
+
+
+
+* Functionality :                                        ____ / 50
+  
+REPL:
+
+File1:
+
+File2:
+
+File3:
+
+File4:
+
+
+* Automated Test Suite:                                  ____ / 20
+
+
+
+
+
+* Other issues/bonus:                                    ____ / 0
+
+
+TOTAL:                                                   ____ / 100
